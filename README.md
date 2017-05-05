@@ -19,7 +19,7 @@
 1. Go to project's root folder
 1. mvn clean spring-boot:run
 ### Test Example
-* curl -H "Content-Type: application/json" -X POST http://localhost:8080/ws.api/health/patient -d '{"idPatientTxtCpf":"39584390040", "txtName":"Test Curl 5", "dtBirth":12359628000
+* curl -H "Content-Type: application/json" -X POST http://localhost:8080/ws.api/health/patient -d '{"idPatientTxtCpf":"39584390040", "txtName":"Test Curl 5", "dtBirth":1235962800000}'
 * curl http://localhost:8080/ws.api/health/patient?cpf=39584390040
 * curl -H "Content-Type: application/json" -X POST http://localhost:8080/ws.api/health/patient/prescription -d '{"idPatientTxtCpf":"39584390040", "prescriptionMedicationList":[{"idMedicationNum":1, "txtFrequency":"a cada 6h", "txtDosage":"2mg"}, { "idMedicationNum":10, "txtFrequency":"a cada 12h", "txtDosage":"250mg"}, {"idMedicationNum":303, "txtFrequency":"a cada 24h", "txtDosage":"750mg"}]}'
 * curl http://localhost:8080/ws.api/health/patient/prescription?idPrescription=1
