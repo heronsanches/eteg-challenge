@@ -15,6 +15,7 @@
 * [Relational Model pdf file here]()
 * [Relational Model SQL Power Architect file here]()
 ### Running Project
+1. Open a terminal
 1. Go to project's root folder
 1. mvn clean spring-boot:run
 ### Test Example
