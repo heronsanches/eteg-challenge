@@ -1,5 +1,5 @@
 ## Eteg's Challenge - Back-End Developer 
-* [Challenge pdf file description here]()
+* [Challenge pdf file description here](https://github.com/heronsanches/eteg-challenge/blob/master/docs/Desafio-Desenvolvedor_Back_End.pdf)
 
 ### Environment Development
 * Netbeans 8.2
@@ -9,11 +9,11 @@
 * SQL Power Architect 1.0.8
 ### Project Specifications
 * Spring Boot
-* [pom.xml here]()
-* [SpringBootApplication Class here]()
-* [REST Class Service here]()
-* [Relational Model pdf file here]()
-* [Relational Model SQL Power Architect file here]()
+* [pom.xml here](https://github.com/heronsanches/eteg-challenge/blob/master/pom.xml)
+* [SpringBootApplication Class here](https://github.com/heronsanches/eteg-challenge/blob/master/src/main/java/com/eteg/heronsanches/eteg/HealthRestApplication.java)
+* [REST Class Service here](https://github.com/heronsanches/eteg-challenge/blob/master/src/main/java/com/eteg/heronsanches/eteg/restservice/PatientRS.java)
+* [Relational Model pdf file here](https://github.com/heronsanches/eteg-challenge/blob/master/database-files/rm_eteg_challenge.pdf)
+* [Relational Model SQL Power Architect file here](https://github.com/heronsanches/eteg-challenge/blob/master/database-files/rm_eteg_challenge.architect)
 ### Running Project
 1. Open a terminal
 1. Go to project's root folder
